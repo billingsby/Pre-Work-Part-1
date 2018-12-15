@@ -39,4 +39,190 @@ h1 {
   light grey: #eaeaea;
 */
 
-/* Your CSS code goes here */
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+
+.column {
+  display: flex;
+  flex-basis: 265px;
+  flex-flow: column nowrap;
+}
+
+/*Funds remaining*/
+
+.funds-needed {
+  display: flex;
+  justify-content: center;
+  background-color: #424242;
+  color: white;
+  font-size: .85em;
+  border-radius: 3px;
+  padding: 12px;
+}
+
+.arrow-down {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 30px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid #424242;
+}
+
+/*Progress bar*/
+
+.progress {
+  display: flex;
+  border: 1px solid #eaeaea;
+  height: 13px;
+  margin-top: 5px;
+}
+
+.current-progress {
+  flex: 3;
+  background-color: #EF5F3C;
+}
+
+.remaining-progress {
+  flex: 1;
+}
+
+/*Main Content*/
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid #eaeaea;
+}
+
+.main p {
+  font-size: .75em;
+  color: #777;
+  text-align: left;
+  margin-bottom: -8px
+}
+
+#days-left {
+  color: #EF5F3C;
+  font-weight: bold;
+}
+
+.project-info {
+  padding: 15px 20px;
+  /*justify-content: left;*/
+}
+
+/*Donate Section*/
+
+.give {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 20px;
+}
+
+.give input {
+  width: 83%;
+  height: 43px;
+  
+}
+
+.give .amountinput {
+ display: flex;
+ 
+}
+.give #amounttwo {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-left:0px;
+  border-radius: 0px 3px 3px 0px;
+  margin-right: 16px;
+  padding-left: 3px;
+  font-size: 1em;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  font-weight: bold;
+  color: #000;
+  outline: none;
+  margin-left: -5px;
+}
+
+.give #amountone {
+
+  width: 20px;
+  border: 1px solid #eaeaea;
+  border-right: 0px;
+  border-radius: 3px 0px 0px 3px;
+  padding-left: 5px;
+  font-size: 1em;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  font-weight: bold;
+  color: #777;
+}
+
+::placeholder {
+  color: black;
+}
+
+.give #givenow {
+  background-color: #1CBC2C;
+  font-size: .95em;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  border: 1px solid #1CBC2C;
+  border-radius: 3px;
+  outline: none;
+}
+
+.give #givenow:hover {
+  background-color: #19aa28;
+}
+
+.whygive {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.whygive a {
+  font-size: .75em;
+  font-style: italic;
+  color: #20A1D4;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.whygive a:hover {
+  color: #1a7da4;
+}
+
+/*Save and share options*/
+
+.share {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.share input {
+  display-content: center;
+  width: 47%;
+  height: 35px;
+  color: #777;
+  font-weight: bold;
+  background-color: #fff;
+  border: 2px solid #eaeaea;
+  border-radius: 3px;
+  outline: none;
+}
+
+.share input:hover {
+  background-color: #eaeaea;
+}
+
