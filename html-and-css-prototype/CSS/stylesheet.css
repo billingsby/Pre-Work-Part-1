@@ -117,7 +117,6 @@ h1 {
 
 .project-info {
   padding: 15px 20px;
-  /*justify-content: left;*/
 }
 
 /*Donate Section*/
@@ -173,7 +172,6 @@ h1 {
 .give #givenow {
   background-color: #1CBC2C;
   font-size: .95em;
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
   font-weight: bold;
   color: #FFF;
   border: 1px solid #1CBC2C;
